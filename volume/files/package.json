@@ -1,0 +1,11 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Node sample app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Minsoo Kim <leios76@gmail.com>",
+  "license": "ISC"
+}

@@ -12,7 +12,7 @@ ENV LC_ALL ko_KR.UTF-8
 RUN \
     sed -ri 's/\/archive\.ubuntu\.com/\/kr\.archive\.ubuntu\.com/g' /etc/apt/sources.list && \
     apt-get update && \
-    apt-get install -y ca-certificates curl && \
+    apt-get install -y ca-certificates curl python build-essential && \
     rm -rf /var/lib/apt/lists/*
 
 
